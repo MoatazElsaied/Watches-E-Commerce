@@ -201,9 +201,11 @@ header .d-sm-block {
 .Popular-item .col {
     position: relative;
 }
-.Popular-item .col img{
-   border-bottom: 2px solid var(--main);
+
+.Popular-item .col img {
+    border-bottom: 2px solid var(--main);
 }
+
 .heart {
     position: absolute;
     right: 30px;
@@ -269,3 +271,86 @@ header .d-sm-block {
 .new-video p {
     line-height: 150px;
 }
+
+/* About-us Page */
+header .About-us {
+    background: url(../images/about_hero.png.webp) no-repeat center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .About-us .Adress h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.mission {
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
+    position: relative;
+}
+
+hr {
+    position: absolute;
+    left: 21%;
+   
+}
+@media screen and (min-width:762px) and (max-width:992px) {
+    hr {
+        position: absolute;
+        left: 17%;
+       
+    }
+}
+
+.mission .para1 {
+    width: 50%;
+    margin: auto;
+}
+
+.mission .para1 p {
+    line-height: 2;
+}
+.mission .para2 {
+    width: 50%;
+    margin: auto;
+}
+
+.mission .para1 {
+    width: 50%;
+    margin: auto;
+}
+/****** End About-Us Page *******/
+/****** Start Shop Page *******/
+
+header .Shop {
+    background: url(../images/about_hero.png.webp) no-repeat center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .Shop .Adress h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+/****** End Shop Page *******/
+
+/****** Start Cart Page *******/
+header .Cart{
+
+  background: url(../images/about_hero.png.webp) no-repeat center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .Cart .Adress h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+/****** End Cart Page *******/
